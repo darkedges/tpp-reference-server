@@ -39,7 +39,7 @@
     "supertest": "^3.0.0"
   },
   "scripts": {
-    "foreman": "./node_modules/foreman/nf.js start",
+    "foreman": "node ./node_modules/foreman/nf.js start",
     "start": "node index.js",
     "test": "NODE_ENV=test MONGODB_URI='localhost:27017/test-tpp-server' mocha --recursive",
     "test:watch": "NODE_ENV=test MONGODB_URI='localhost:27017/test-tpp-server' mocha --recursive --watch",
